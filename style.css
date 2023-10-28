@@ -101,3 +101,34 @@ ul li span {
     line-height: 8.0rem;
     letter-spacing: -2px;
 }
+
+@media (min-width: 700px) {
+    body {
+        padding: 8rem;
+    }
+
+    main {
+        max-width: 1020px;
+        display: flex;
+        justify-content: left;
+        gap: 10rem;
+    }
+
+    main > div, div header {
+        max-width: 484px;
+    }
+
+    div {
+        margin-top: 5.0rem;
+    }
+
+    ul li {
+        gap: 5.0rem;
+        max-width: 450px;
+        align-items: center;
+    }
+
+    ul li + li {
+        margin-top: 2.5rem;
+    }
+} 
